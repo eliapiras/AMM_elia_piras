@@ -11,32 +11,38 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Home Venditore">
         <meta name="author" content="Elia Piras">
+        <link rel="shortcut icon" type="image/x-icon" href="../Immagini/vinyl_green.ico" />
+        <link href="../M2/mystyle.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
-         <img src="logo.png" alt="logo sito" title="logo-sito" width="300" > 
-         
-         <h2>Home Venditore</h2>
-         <h3>Metti un Album in vendita</h3>
-         <form method="GET">
-                <label for="NomeAlbum">Nome Album:</label><br>
-                <input type="text" name="NomeAlbum" id="NomeAlbum"><br><br>
-                <label for="Artista">Artista:</label><br>
-                <input type="text" name="Artista" id="Artista"><br><br>
-                <label for="Copertina">Copertina</label><br>
-                <input type="text" name="Carica" id="Copertina"><br><br>
-                <label for="Quantita">Quantità:</label><br>
-                <input type="text" name="Quantita" id="Quantita"><br><br>
-                <label for="Prezzo">Prezzo:</label><br>
-                <input type="text" name="Prezzo" id="Prezzo"><br><br>
-                <label for="Descrizione">Descrizione:</label><br>
-                <textarea name="Descrizione" id="Descrizione" cols="40" rows="10">Descrizione Album</textarea><br><br>
-                <input type="submit" value="Invia">
-                <input type="reset" value="Cancella"> 
-        </form>
-         <div>
+        <div id="header">
+         <img src="../Immagini/logo.png" alt="logo sito" title="logo-sito" width="300" > 
+         <h1>Home Venditore</h1>
+        </div>
+         <div id="leftbar">
             <h2>Navigazione</h2>
             <a href="descrizione.html">Vai alla pagina Descrizione</a><br>
             <a href="login_shop.html">Vai alla pagina Login</a><br>
         </div>
-    </body>
+        <div id="content">
+         <h3>Metti un Album in vendita</h3>
+         <form id="form_carica" method="GET">
+                <label class="label_carica" for="NomeAlbum">Nome Album:</label>
+                <input class="input_carica" type="text" name="NomeAlbum" id="NomeAlbum"><br><br>
+                <label class="label_carica" for="Artista">Artista:</label>
+                <input class="input_carica" type="text" name="Artista" id="Artista"><br><br>
+                <label class="label_carica" for="Copertina">Copertina</label>
+                <input class="input_carica" type="text" name="Carica" id="Copertina"><br><br>
+                <label class="label_carica" for="Quantita">Quantità:</label>
+                <input class="input_carica" type="text" name="Quantita" id="Quantita"><br><br>
+                <label class="label_carica" for="Prezzo">Prezzo:</label>
+                <input class="input_carica" type="text" name="Prezzo" id="Prezzo"><br><br>
+                <label class="label_carica" for="Descrizione">Descrizione:</label>
+                <textarea class="input_carica" name="Descrizione" id="Descrizione" cols="40" rows="10">Descrizione Album</textarea><br><br>
+                <div id="button-carica">
+                <input class="button_form" type="submit" value="Invia">
+                <input class="button_form" type="reset" value="Cancella"> 
+                </div>
+        </form>
+        </div></body>
 </html>

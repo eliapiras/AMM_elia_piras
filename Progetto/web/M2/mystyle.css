@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-mar-2016, 16.27.04
+    Author     : Elia Piras
+*/
+body{
+    height: 100%;
+    background: linear-gradient(-180deg, white 10px, lightblue 70px, plum 105px, plum 120px, palegreen 160px, white 210px, white 90%, springgreen 100%);
+    background-repeat: no-repeat;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-left: 10px;
+    color: teal;
+}
+.link-nav, p{
+    margin-left: 10px;
+}
+#header img{
+    float: left;
+}
+ul li {
+    list-style-image: url(punto.png);
+}
+
+#content{
+    margin-top: 10%;
+    height: 100%;
+    margin-bottom: 75px;
+}
+a{
+    color:royalblue;
+}
+a:visited{
+    color:royalblue;
+}
+a:hover{
+    color: darkgreen;
+}
+#leftbar{
+    height: 100%;
+}
+#form_login {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-family: fantasy;
+}       
+
+ .button_form{
+    border: 2px solid darkgreen;
+    background-color: darkgreen;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-size: 15px;
+    color:  whitesmoke;
+}
+.button_form:hover{
+    background-color: White;
+    color: darkgreen;
+}
+#button-carica{
+       position: relative;
+       text-align: center;
+}
+input{
+    border: 2px solid darkgreen;
+    border-radius: 7px;
+    height: 25px;
+}
+
+input[type=reset]{
+    margin-left: 10px;
+}
+#form_carica {
+    position: relative;
+    font-family: fantasy;
+}
+#Descrizione{
+   height: 75px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: 1%;
+    border: 3px solid darkgreen;
+}
+table th{
+    font-size: 100%;
+    width: 15%;
+    border-bottom: 3px solid darkgreen;
+    border-right: 3px solid darkgreen;
+    background-color: mediumspringgreen;
+}
+table td{
+    font-size: 100%;
+    font-weight: bold;
+    text-align: center;
+    width: 15%;
+    border-bottom: 3px solid darkgreen;
+    border-right: 2px solid darkgreen;
+}
+.basket_icon, .img_cover{
+    width: 50%;
+    height: auto;
+}
+table .righe-dispari{
+    background-color: palegreen;
+}
+table .righe-pari{
+    background-color: lightgreen;
+}
+
+
+#footer{
+    clear:both;
+    width:100%;
+}
+
+@media only screen and (min-width: 551px){
+    #header{
+        height: 200px;
+        display: block;
+    }
+    #header h1{
+        position: relative;
+        top: 75px;
+        left: 10px;
+        color: midnightblue;   
+    }
+    #leftbar{
+        float:left;
+        width: 200px;
+        border-right-style: solid;
+        border-right-color: gainsboro;
+        border-right-width: 1px;
+    }
+    #content{
+        margin-left: 200px;
+        border-left: solid gainsboro 1px;
+    }
+    .login-form{
+        height: 25px;
+        width: 210px;
+    }
+    #form_carica label {
+        float:left;
+        width:100px;
+    }
+    .input_carica{
+        width: 74%;
+        box-sizing: initial;
+        padding-left: 2px;
+    }
+}
+@media only screen and (max-width: 550px){
+    #header{
+        height: 200px;
+        display: block;
+    }
+    #header img{
+        float: left;
+    }
+    #header h1{
+        top: 75px;
+        left: 10px;
+        color: midnightblue;
+    }
+    #leftbar{
+        float:top;
+        border-bottom-style: solid;
+        border-bottom-color: darkgreen;
+        border-bottom-width: 2px;
+        padding-bottom: 20px;
+    }
+    #content{
+        margin-left: 15%;
+    }
+    #form_login {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        text-align: center;
+        margin-top: 50px;
+        font-family: fantasy;
+     }
+    .login-form{
+        height: 15px;
+        width: 100%;
+    }
+    .input_carica{
+        width: 100%;
+    }
+    #button-carica{
+       position: relative;
+       text-align: center;
+    }
+ 
+}

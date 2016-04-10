@@ -11,45 +11,50 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Descrizione Sito">
         <meta name="author" content="Elia Piras">
+        <link rel="shortcut icon" type="image/x-icon" href="../Immagini/vinyl_green.ico" />
+        <link href="../M2/mystyle.css" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
-        <img src="logo.png" alt="logo sito" title="logo-sito" width="300" > 
-        <h1>Descrizione Sito</h1>
-        
-        <h2>Indice</h2>
-        <ol>
-            <li><a href="#intro">Descrizione Sito</a></li>
-            <li><a href="#funzioni">funzioni</a></li>
-            <li><a href="#navigazione">navigazione</a></li>
-        </ol>
-        
-        <h2 id="intro">Intro</h2>
-        <p>
-            questo sito permette di vendere e comprare album musicali di vari artisti e generi musicali tramite un sistema di bitcoin.
-        <br>è suddiviso in 2 utenti con funzioni diverse: Venditore, Compratore
-        </p>
-        <h2 id="funzioni">Funzioni</h2>
-        <ol>
-            <li><a href="#funbuyer">compratore</a></li>
-            <li><a href="#funseller">venditore</a></li>
-        </ol>
-        <h3 id="funbuyer">Compratore</h3>
-        <p>
-            Questa sezione è dedicata ai compratori, permette ad un utente di cercare un album musicale vederne i dettagli e eventualmente comprare, 
-            permette di andare nella sezione conto dei vedere il proprio saldo di bitcoin e di aumentare il proprio saldo aggiungendo bitcoin,
-            permette all'utente di visualizzare il proprio carrello e togliere articoli da esso o procedere con l'acquisto e infine puo andare
-            nella sezione cronologia degli acquisti per vedere i precedenti acquisti e lasciare un feedback ai venditori
-        </p>
-        <h3 id="funseller">Venditore</h3>
-        <p>
-            Questa sezione è dedicata ai venditori, permette ad un utente di mettere in vendita un album musicale inserendo i suoi dati, 
-            permette di andare nella sezione cronologia delle vendite per vedere  gli album venduti e lasciare un feedback al compratore
-        </p>
-         <div>
-             <h2 id="navigazione">Navigazione</h2>
-            <a href="login_shop.html">Vai alla pagina Login</a><br>
+        <div id="header">
+            <img src="../Immagini/logo.png" alt="logo sito" title="logo-sito" width="300" > 
+            <h1>Chi Siamo</h1>
         </div>
-        
+        <div id="leftbar">
+            <h2>Indice</h2>
+            <ol>
+                <li><a href="#intro">Intro</a></li>
+                <li>
+                    <a href="#funzioni">funzioni:</a>
+                    <ul>
+                        <li><a href="#funbuyer">compratore</a></li>
+                        <li><a href="#funseller">venditore</a></li>
+                    </ul>
+                </li>
+                <li><a href="#navigazione">navigazione</a></li>
+            </ol>
+            <h2 id="navigazione">Navigazione</h2>
+            <a class="link-nav" href="login_shop.html">Vai alla pagina Login</a><br>
+        </div>
+        <div id="content">
+            <h2 id="intro">Intro</h2>
+            <p>
+                questo sito permette di vendere e comprare album musicali di vari artisti e generi musicali tramite un sistema di bitcoin.
+            <br>è suddiviso in 2 utenti con funzioni diverse: Venditore, Compratore
+            </p>
+            <h2 id="funzioni">Funzioni</h2>
+            <h3 id="funbuyer">Compratore</h3>
+            <p>
+                Questa sezione è dedicata ai compratori, permette ad un utente di cercare un album musicale vederne i dettagli e eventualmente comprare, 
+                permette di andare nella sezione conto dei vedere il proprio saldo di bitcoin e di aumentare il proprio saldo aggiungendo bitcoin,
+                permette all'utente di visualizzare il proprio carrello e togliere articoli da esso o procedere con l'acquisto e infine puo andare
+                nella sezione cronologia degli acquisti per vedere i precedenti acquisti e lasciare un feedback ai venditori
+            </p>
+            <h3 id="funseller">Venditore</h3>
+            <p>
+                Questa sezione è dedicata ai venditori, permette ad un utente di mettere in vendita un album musicale inserendo i suoi dati, 
+                permette di andare nella sezione cronologia delle vendite per vedere  gli album venduti e lasciare un feedback al compratore
+            </p>
+        </div>
         
         
         
